@@ -161,8 +161,8 @@ span h1 {
 .panel.one #facts span {
   display: inline-block;
   width: 23%;
-  width: 150px;
-  height: 125px;
+  width: 110px;
+  height: 80px;
   vertical-align: top;
   *display: inline;
   zoom: 1
