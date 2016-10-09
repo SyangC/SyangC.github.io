@@ -1,0 +1,356 @@
+html, body {
+  height:100%;
+  width:100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+/*page panels*/
+
+.panel {
+  height: 100%;
+  width: 100%;
+}
+
+/*nav bar*/
+
+nav {
+  height: 70px;
+  width: 100%;
+  position: absolute;
+}
+
+#nav-left {
+  margin: 50px;
+  float: left;
+  height: 100%;
+  display: block;
+}
+
+#nav-left span {
+  display: inline-block;
+  height:100%;
+  vertical-align: center;
+}
+
+#nav-right {
+  margin: 5%;
+  float: right;
+  height: 100%;
+  display: block;
+}
+
+#nav-right ul li {
+  display: inline-block;
+  height:100%;
+  color: white;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+
+#nav-right ul li{
+  display:none;
+}
+
+#nav-right ul li:nth-child(1) a:before{
+  content:'\2630';
+}
+
+#nav-right ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-right ul li + li {
+  margin-left: 20px;
+}
+
+#nav-logo {
+  height: 25%;
+}
+
+span h1 {
+  color: white;
+  font-size: 12px
+}
+
+/*landing page*/
+
+#landing-logo {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  height: 35%;
+}
+
+#landing-image {
+  height: 100%;
+  width: 100%;
+  background: url("../images/top-back@2x.jpg") center center no-repeat fixed;
+  background-size: cover
+}
+
+/*button*/
+
+.button-one {
+  background-color: #95c21f;
+  display: inline-block;
+  color:white;
+  padding: 5px 15px 5px 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  position:absolute;
+  margin: 20px 0 10px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-one a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-two {
+  background-color: #95c21f;
+  display: inline-block;
+  color:white;
+  padding: 15px 30px 15px 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  position:absolute;
+  margin: 25px 0 25px 0;
+  border-radius: 5px;
+}
+
+/*panel 1*/
+
+.panel.one h1 {
+  color: #93c31a;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+.panel.one h3 {
+  color: #93c31a;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.panel.one p {
+  width: 80%;
+  text-align: center;
+  font-size: 12px;
+  margin: 40px 10% 0 10%;
+}
+
+.panel.one #facts {
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  height: 125px;
+  
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.panel.one #facts span {
+  display: inline-block;
+  width: 23%;
+  width: 75px;
+  height: 60px;
+  vertical-align: top;
+  *display: inline;
+  zoom: 1
+}
+
+.panel.one #facts span h1 {
+  font-size: 25px
+}
+
+.panel.one #facts span h3 {
+  font-size: 12px
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
+/*panel 2*/
+
+.panel.two h1 {
+  color: #93c31a;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
+}
+
+.panel.two p {
+  width: 80%;
+  text-align: center;
+  font-size: 12px;
+  margin: 40px 10% 0 10%;
+}
+
+.panel.two #icons-container {
+  width: 80%;
+  margin: 5% 10% 5% 10%;
+  height: 125px;
+}
+
+.panel.two #icons-container span {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  padding-top: 10px;
+}
+
+.panel.two #icons-container span img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel.two #icons-container span h3 {
+  color: #a2c63a;
+  text-align: center;
+  font-size: 16px;
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
+/*panel 3*/
+
+.panel.three {
+  position:relative;
+}
+
+.panel.three .bottom {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.panel.three .top {
+  top:0;
+  position:absolute;
+  z-index: 1;
+}
+
+.panel.three .top .logo {
+  height: 50px;
+  padding-top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  position:absolute;
+}
+
+.panel.three .top h1 {
+  color: #93c31a;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 35%;
+}
+
+.panel.three .top p {
+  width: 80%;
+  text-align: center;
+  font-size: 12px;
+  margin: 20px 10% 0 10%;
+}
+
+.panel.three .bottom-phone {
+  bottom: 0;
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  position:absolute;
+}
+
+/*last panel*/
+
+#last-panel {
+  position: relative;
+}
+
+#last-panel #slider{
+  height: 100%;
+  background: url("../images/large-house.jpg") center center no-repeat fixed;
+  background-size: cover
+}
+
+#last-panel #last-logo{
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  position:absolute;
+  height: 70px;
+  z-index: 2;
+}
+
+#last-panel p {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  position:absolute;
+  height: 100px;
+  z-index: 2;
+  color: white;
+  line-height: 20px
+}
+
+/*footer*/
+
+footer div span {
+  display: inline-block;
+  margin: 5px;
+}
+
+#footer-1, #footer-2, #footer-3, #footer-4 {
+  width: 40%;
+}
+
+#footer-1 div, #footer-2 div, #footer-3 div, #footer-4 div {
+  padding: 10% 5% 0% 5%;
+}
+
+#footer-1 div h1, #footer-3 div h1 {
+  color:#93c31a;
+  font-size: 16px;
+}
+
+#footer-1 div p, #footer-2 div p, #footer-3 div p, #footer-4 div p {
+  line-height: 16px;
+  font-size: 12px;
+}
+
+#footer-3 div a {
+  text-decoration: none;
+  color:#93c31a;
+}
+
+footer h5 {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-size: 10px
+}
